@@ -7,7 +7,6 @@ const navItems = [
   { label: "experience", href: "#experience" },
   { label: "projects", href: "#projects" },
   { label: "skills", href: "#skills" },
-  { label: "contact", href: "#contact" },
 ];
 
 export default function Navbar() {

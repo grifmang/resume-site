@@ -9,7 +9,7 @@ const roles = [
     company: "Travelers",
     date: "May 2023 – Present",
     bullets: [
-      "Lead automation for Encryption and PKI teams using Terraform, Python, and AWS",
+      "Lead automation for Cloud Security and PKI teams using Terraform, Python, and AWS",
       "Build data pipelines and dashboards with QLIK, Snowflake, and Databricks",
       "Manage secrets and certificates via HashiCorp Vault, Venafi, Wiz, and Tenable",
     ],

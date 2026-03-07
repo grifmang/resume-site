@@ -20,7 +20,7 @@ export default function About() {
           <p>
             Senior Cybersecurity Engineer with over 17 years of IT experience.
             Currently at Travelers, where I lead automation efforts across
-            Encryption and PKI teams — building solutions with Python, Terraform,
+            Cloud Security and PKI teams — building solutions with Python, Terraform,
             AWS, and HashiCorp Vault.
           </p>
           <p>

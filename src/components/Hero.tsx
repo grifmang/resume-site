@@ -2,11 +2,29 @@
 
 import { useTypingAnimation } from "@/hooks/useTypingAnimation";
 
+const contactLinks = [
+  {
+    label: "grifmang@gmail.com",
+    href: "mailto:grifmang@gmail.com",
+    icon: "✉",
+  },
+  {
+    label: "linkedin.com/in/tim-griffith",
+    href: "https://www.linkedin.com/in/tim-griffith",
+    icon: "in",
+  },
+  {
+    label: "github.com/grifmang",
+    href: "https://github.com/grifmang",
+    icon: "⌥",
+  },
+];
+
 const terminalLines = [
   { command: "whoami", output: "Tim Griffith" },
   {
     command: "cat role.txt",
-    output: "Cybersecurity Engineer | Security Engineering | PKI Automation",
+    output: "Cybersecurity Engineer | Security Engineering",
   },
 ];
 
@@ -61,6 +79,25 @@ export default function Hero() {
             )}
           </div>
         </div>
+        {/* Contact links */}
+        {complete && (
+          <div className="flex flex-wrap justify-center gap-4 mt-6">
+            {contactLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target={link.href.startsWith("mailto") ? undefined : "_blank"}
+                rel="noopener noreferrer"
+                className="group flex items-center gap-2 text-foreground/50 hover:text-terminal-green transition-all duration-300 text-sm font-[family-name:var(--font-jetbrains-mono)]"
+              >
+                <span className="group-hover:drop-shadow-[0_0_8px_rgba(0,255,65,0.6)] transition-all duration-300">
+                  {link.icon}
+                </span>
+                <span>{link.label}</span>
+              </a>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Scroll indicator */}
