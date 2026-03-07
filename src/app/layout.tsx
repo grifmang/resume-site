@@ -16,6 +16,12 @@ export const metadata: Metadata = {
   title: "Tim Griffith | Senior Cybersecurity Engineer",
   description:
     "Senior Cybersecurity Engineer specializing in PKI automation, cloud security, and AI. 17+ years of IT experience.",
+  openGraph: {
+    title: "Tim Griffith | Senior Cybersecurity Engineer",
+    description:
+      "Senior Cybersecurity Engineer specializing in PKI automation, cloud security, and AI.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
