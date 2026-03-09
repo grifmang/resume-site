@@ -1,0 +1,7 @@
+# Allow Anthropic/Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Allow Claude's web search agent
+User-agent: claude-web
+Allow: /
