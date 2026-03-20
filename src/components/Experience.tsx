@@ -5,13 +5,13 @@ import SectionHeader from "./SectionHeader";
 
 const roles = [
   {
-    title: "Senior Cybersecurity Engineer",
+    title: "Cybersecurity Engineer",
     company: "Travelers",
     date: "May 2023 – Present",
     bullets: [
-      "Lead automation for Cloud Security and PKI teams using Terraform, Python, and AWS",
-      "Build data pipelines and dashboards with QLIK, Snowflake, and Databricks",
-      "Manage secrets and certificates via HashiCorp Vault, Venafi, Wiz, and Tenable",
+      "Part of the Encryption and PKI area, handling automation with Terraform, Python, JavaScript, and AWS",
+      "Build solutions using QLIK, Snowflake, Databricks, HashiCorp Vault, Venafi, Wiz, and Tenable",
+      "Focused on AI and AI development",
     ],
   },
   {
@@ -24,14 +24,14 @@ const roles = [
     ],
   },
   {
-    title: "Infrastructure Engineer — TLDP",
+    title: "Infrastructure Engineer — TLDP Participant",
     company: "Travelers",
     date: "Apr 2021 – Apr 2022",
     bullets: [
-      "Created EC2 compliance system with Grafana, Python, Tenable, and Wiz.io",
-      "Built Log4J reporting system using AWS metrics, Tenable, and Python",
+      "Created EC2 compliance system with Grafana, Python, Tenable, MariaDB, and Wiz.io",
+      "Built Log4J reporting system using AWS metrics, Tenable, Wiz.io, and Python",
       "Automated Venafi certificate discovery and Tenable Security Center cleanup",
-      "Penetration tested web applications using HCL AppScan and Burp Suite",
+      "Penetration tested web applications using HCL AppScan, Burp, and manual testing",
     ],
   },
 ];

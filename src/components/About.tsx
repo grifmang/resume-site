@@ -18,19 +18,17 @@ export default function About() {
         <SectionHeader command="cat about.md" />
         <div className="space-y-4 text-foreground/80 text-lg leading-relaxed border-l-2 border-terminal-green/30 pl-6">
           <p>
-            Senior Cybersecurity Engineer with over 17 years of IT experience.
-            Currently at Travelers, where I lead automation efforts across
-            Cloud Security and PKI teams — building solutions with Python, Terraform,
-            AWS, and HashiCorp Vault.
+            With over 17 years of IT experience, I am a passionate and proficient
+            Cybersecurity Engineer at Travelers, one of the largest providers of
+            property and casualty insurance in the US.
           </p>
           <p>
-            I build tools that make security teams faster. From compliance
-            automation to AI-powered fact-checking pipelines, I focus on
-            practical solutions to real problems.
+            My mission is to ensure the security and compliance of Travelers
+            cloud infrastructure and applications, using my expertise in AWS,
+            Python, Terraform, Wiz, Tenable, and other tools.
           </p>
           <p className="text-terminal-green/90 font-[family-name:var(--font-jetbrains-mono)] text-base">
-            Currently focused on the intersection of application security and AI
-            systems.
+            Currently focused on AI and AI development.
           </p>
         </div>
       </div>

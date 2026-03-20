@@ -24,7 +24,7 @@ const terminalLines = [
   { command: "whoami", output: "Tim Griffith" },
   {
     command: "cat role.txt",
-    output: "Cybersecurity Engineer | Security Engineering",
+    output: "Cybersecurity Engineer | Automation, Python, Security, AWS",
   },
 ];
 
