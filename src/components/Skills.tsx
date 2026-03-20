@@ -5,23 +5,21 @@ import SectionHeader from "./SectionHeader";
 
 const skillCategories = [
   {
-    name: "Security & AppSec",
+    name: "Security",
     skills: [
       "PKI",
       "Venafi",
-      "Pen Testing",
-      "Burp Suite",
-      "AppScan",
       "Wiz.io",
-      "Tenable",
       "HashiCorp Vault",
     ],
   },
   {
     name: "AI & Automation",
     skills: [
-      "Claude API",
-      "Anthropic SDK",
+      "LLM APIs & SDKs",
+      "AI Agents",
+      "MCP",
+      "Prompt Engineering",
       "Python Automation",
       "Data Pipelines",
     ],
@@ -34,11 +32,12 @@ const skillCategories = [
     name: "Development",
     skills: [
       "Python",
+      "JavaScript",
       "TypeScript",
       "React",
       "Next.js",
       "Node.js",
-      "PostgreSQL",
+      "SQL Databases",
     ],
   },
   {
